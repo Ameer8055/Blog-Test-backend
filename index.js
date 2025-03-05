@@ -4,7 +4,7 @@ const cors = require("cors")
 
 
 const app = new express();;
-var PORT = 3000;
+var PORT = 4000;
 app.use(cors());
 app.use(morgan('dev'))
 const blogModel=require('./model')
